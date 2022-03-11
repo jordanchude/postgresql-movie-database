@@ -10,3 +10,7 @@ VALUES
   ('The Truman Show', 1998),
   ('The Matrix', 1999),
   ('The Shawshank Redemption', 1994);
+
+-- Part Three - Querying Data
+SELECT * FROM films 
+WHERE release_year = 1994;
