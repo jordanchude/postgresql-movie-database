@@ -14,3 +14,13 @@ VALUES
 -- Part Three - Querying Data
 SELECT * FROM films 
 WHERE release_year = 1994;
+
+-- Part Four - Adding Supplementary Information
+ALTER TABLE films 
+ADD runtime INTEGER;
+
+ALTER TABLE films 
+ADD category TEXT;
+
+ALTER TABLE films 
+ADD rating DECIMAL(2,1);
